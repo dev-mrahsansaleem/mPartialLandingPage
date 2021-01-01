@@ -1,16 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
-import {
-  MobileIcon,
-  Nav,
-  NavbarContainer,
-  NavBtn,
-  NavBtnLink,
-  NavItem,
-  NavLinks,
-  NavLogo,
-  NavMenu,
-} from "./NavbarElements";
+import "./NavBar.css";
 
 const NavBar = () => {
   const [clicked, setClicked] = useState(false);
@@ -43,40 +32,14 @@ const NavBar = () => {
   window.addEventListener("scroll", changeBG);
   return (
     <>
-      <Nav>
-        <NavbarContainer>
-          <NavLogo to="/">logo here</NavLogo>
-          <MobileIcon>
-            <FaBars />
-          </MobileIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-          </NavMenu>
-          <NavBtn>
-            <NavBtnLink to="/signin">Sign in</NavBtnLink>
-          </NavBtn>
-        </NavbarContainer>
-      </Nav>
+      <div className="navbar">
+        <ul>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+        </ul>
+      </div>
     </>
   );
 };

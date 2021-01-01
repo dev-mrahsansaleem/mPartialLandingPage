@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { Button } from "./Button";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -32,14 +34,48 @@ const NavBar = () => {
   window.addEventListener("scroll", changeBG);
   return (
     <>
-      <div className="navbar">
-        <ul>
-          <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
-        </ul>
-      </div>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <p>This is Logo</p>
+          </Link>
+          <div className="menu-icon" onClick={handleClicked}>
+            <i className={clicked ? "fas fa-times" : "fas fa-bars"} />
+          </div>
+          <ul className={clicked ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <Button btnStyle="btn--round">SignUp</Button>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </>
   );
 };

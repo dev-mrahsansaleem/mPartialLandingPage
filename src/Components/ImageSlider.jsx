@@ -2,6 +2,7 @@ import "./ImageSlider.css";
 import originalImage from "./img/right.jpg";
 import modifiedImage from "./img/left.jpg";
 import Slider from "./Slider";
+import { Button } from "./Button";
 const ImageSlider = () => {
   const slider1 = {
     delay: 2000,
@@ -42,6 +43,9 @@ const ImageSlider = () => {
           </div>
           <div className="compSection">
             <Slider {...slider1} />
+          </div>
+          <div className="btnSection">
+            <Button btnStyle="btn--round"> Try it for free </Button>
           </div>
         </div>
       </div>

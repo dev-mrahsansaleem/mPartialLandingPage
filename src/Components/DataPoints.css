@@ -1,0 +1,63 @@
+.fullRowWhite {
+  margin: 0 !important;
+}
+.howitworks {
+  background: rgba(10, 81, 105, 0.05) 0 0 no-repeat padding-box;
+}
+.section_title_text {
+  text-align: center;
+  background-position: 50%;
+  padding: 12%;
+}
+.section_title_text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  /* background-image: url("../Components/img/circle.png"); */
+}
+
+.data_points {
+  padding-top: 2%;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.data_points .data_point_item .data_number {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAdVBMVEVHcEzf8evf8+vf8Ov////f8Ovf8evf8evk///f8evf8ezf8ezg8uvf8evf8uzf8evi8uzj9O/f8Ovf8evg9vDg8uzl+O/f8evf8Orf8evf8Ozf8evg8evg9Ovf8evf8Orf8uvl9+7h8u7f8ezf8e3f8evf8eshvSo0AAAAJnRSTlMA+EDAA/DagAjJkGlx6WDkNBbg/CFMD6r11XifVS250GQcOVxIsOlT2z4AAAK7SURBVBgZxcAFltwwEATQMknmMQ/CQlL3P2LeZhEGDFLrY7K4KtNTsm2KDTdFs01OaVnFsOspXyteotb5E6x4PKSJx1u8JD08wqxOK97Vkkp3MKbOEo6XZANMiPMVp1nlMZYadMHpCj1giTCPOE+Uh5jN33K+rY95HtdcZl1jhj7iUlGPqeKUJqQhJum2NOPcYQI/oilRhdH+eDRn02OksqVJ7QNG0TQtxwh7mpfirh1t2OGOjHY846a+pR1tjxt8j7Z4Fa6qI9oT1bgmoE0nXKFpl8ZFfku7Wh8X1AVtKwb8tqZ9e/xSUUKFH8KEEhL8kFFGiW/iFWWsYnyVUUqGL0JFKSrEp5JySnwIFeWoEO9KSjrgXUBJAd50lFXj1Y6ycrw6U9YZ/x0p7YgXmtI0XgSUFgBA7FGaFwPwKc8HoClPAwgoLwDCiPIioKMLNXy64COjCyVSuqDxly78RUIXEii6oNDQhQYFXSjg0QUPdAMeXfBQ0IUCii4onOlCgoQuBFjThTU0XdAo6UIJny74qOlCDUSUFwEIKC8AoClPA/ApzwcQe5TmxQAQUFqAF5rSNF4cKe2I/xRlnfFKU9YOrzrK6vAmoKQA70pKKvEuVJSjQnzIKCfDp3hFKasYX+woJcdXQ0QZUYxvcsrI8V2oKCEJ8YNPCRV+2dO+PX6rC9pWDLigp209LkppV4rLwoQ2JSGu6CLaEz3iKt+jLZ6PG/qWdrQ9bspoR4Y7NG3Y4a6U5qUYIadpOUZ5aGlSW2KkfkNzNn8wWqVoiqowwbCmGesB02Qel/NyTFY1XKqpMMOQtlyiTQfMcww4X9BhvkPDeZoDFonzgtM1WYyl4qzhNE0WwoTwQXE89RDCmE4rjqF0B8Oe0i1v26ZPsKJ+3q942Wr/XMOmujrs9qdk2xQbbopmm5z2u0NVY6J/XgNmrWxAHQAAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: bottom;
+  font-weight: 700;
+  font-size: 167px;
+  line-height: 87px;
+  letter-spacing: 0;
+  color: #0a5169;
+  opacity: 1;
+  min-height: 143px;
+}
+.data_points .data_point_item .data_text {
+  text-align: left;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: -0.14px;
+  color: #000;
+  opacity: 1;
+}

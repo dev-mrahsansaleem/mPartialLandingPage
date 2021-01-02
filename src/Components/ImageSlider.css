@@ -36,3 +36,7 @@ p {
   background-repeat: no-repeat;
   /* background-image: url(); */
 }
+.btnSection {
+  margin: 0px auto;
+  width: fit-content;
+}

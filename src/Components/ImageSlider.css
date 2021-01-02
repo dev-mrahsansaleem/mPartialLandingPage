@@ -14,10 +14,6 @@
   opacity: 1;
   padding-top: 19%;
 }
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
 .section_title_text {
   text-align: left;
   padding-top: 21%;
@@ -39,4 +35,5 @@ p {
 .btnSection {
   margin: 0px auto;
   width: fit-content;
+  padding-bottom: 50px;
 }

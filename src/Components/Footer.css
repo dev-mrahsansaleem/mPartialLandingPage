@@ -1,0 +1,33 @@
+.footer {
+  background: #0a5169;
+  padding: 20px 0;
+}
+.footer p {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 14px;
+  margin: 0;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  border-radius: 5px;
+  opacity: 1;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.social-links {
+  background: rgba(0, 0, 0, 0) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.footer ul li {
+  margin: 0 15px;
+}
+i {
+  color: #9db9c3;
+}

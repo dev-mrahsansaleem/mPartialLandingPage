@@ -7,7 +7,7 @@
 }
 
 .btn--primary {
-  background-color: rgb(7, 255, 131);
+  background-color: #3ac280;
   color: #ffffff;
   /* border: 2px solid rgb(16, 28, 190); */
 }
@@ -17,7 +17,7 @@
   /* border: 2px solid rgb(16, 28, 190); */
 }
 .btn--round {
-  background-color: rgb(7, 255, 131);
+  background-color: #3ac280;
   color: #ffffff;
   /* border: 2px solid rgb(16, 28, 190); */
   border-radius: 50px;

@@ -2,7 +2,7 @@ import React from "react";
 import "./Button.css";
 
 const STYLES = ["btn--primary", "btn--outline", "btn--round"];
-const SIZES = ["btn--medium", "btn--large"];
+const SIZES = ["btn--medium", "btn--large", "btn--small"];
 
 export const Button = ({ children, type, onClick, btnStyle, btnSize }) => {
   const checkbtnStyle = STYLES.includes(btnStyle) ? btnStyle : STYLES[0];

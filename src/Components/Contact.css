@@ -1,0 +1,38 @@
+.form-group {
+  margin-bottom: 1.5rem !important;
+  position: relative;
+}
+.form-holder input {
+  margin-bottom: 24px;
+}
+.form-holder input,
+.form-holder textarea {
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid rgba(10, 81, 105, 0.5);
+  border-radius: 10px;
+  padding: 12px 15px;
+  outline: none;
+}
+input,
+textarea {
+  outline: none !important;
+}
+
+.form-group.nogroup .floating_label {
+  left: 20px;
+}
+.form-group .floating_label {
+  position: absolute;
+  left: 56px;
+  top: 10px;
+  -webkit-transition: all 0.3s;
+  -o-transition: 0.3s all;
+  transition: all 0.3s;
+  font-weight: 600;
+  color: rgba(73, 80, 87, 0.8) !important;
+}
+
+.form-holder {
+  margin-top: 0;
+}

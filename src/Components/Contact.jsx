@@ -1,19 +1,13 @@
-import {
-  FormControl,
-  InputLabel,
-  OutlinedInput,
-  TextField,
-} from "@material-ui/core";
-import { useState } from "react";
+import { TextField } from "@material-ui/core";
 import { Button } from "./Button";
 
 import "./Contact.css";
 
 const Contact = () => {
-  const [fname, setFname] = useState("");
-  const handlefname = (event) => {
-    setFname(event.target.value);
-  };
+  // const [fname, setFname] = useState("");
+  // const handlefname = (event) => {
+  //   setFname(event.target.value);
+  // };
   return (
     <>
       <div className="fullRowWhite">

@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import PropTypes from "prop-types";
 
 import Image from "./Image";
@@ -7,7 +7,7 @@ import Handle from "./Handle";
 import "./Slider.css";
 
 function Slider({ original, modified, delay = 0 }) {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible] = useState(false);
   const [isDragStarted, setDragStarted] = useState(false);
   const [sizes, setSizes] = useState({});
   const dragElement = useRef(null);

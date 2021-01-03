@@ -5,8 +5,8 @@ import "./NavBar.css";
 
 const NavBar = () => {
   const [clicked, setClicked] = useState(false);
-  const [haveButton, setHaveButton] = useState(true);
-  const [navbarToggle, setNavBarToggle] = useState(false);
+  // const [haveButton, setHaveButton] = useState(true);
+  // const [navbarToggle, setNavBarToggle] = useState(false);
   const handleClicked = () => {
     setClicked(!clicked);
   };

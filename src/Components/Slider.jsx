@@ -13,9 +13,10 @@ function Slider({ original, modified, delay = 0 }) {
   const dragElement = useRef(null);
   const container = useRef(null);
 
-  useEffect(() => {
-    setTimeout(() => setIsVisible(true), delay);
-  }, []);
+  useEffect(
+    setTimeout(() => setIsVisible(true), delay),
+    []
+  );
 
   const onDragStart = (e) => {
     e.preventDefault();

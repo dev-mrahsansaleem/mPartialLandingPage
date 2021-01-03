@@ -27,9 +27,7 @@ const NavBar = () => {
       setNavBarToggle(false);
     }
   };
-  useEffect(() => {
-    showButton();
-  }, []);
+  useEffect(showButton(), []);
   window.addEventListener("resize", showButton);
   window.addEventListener("scroll", changeBG);
   return (

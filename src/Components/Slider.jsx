@@ -12,11 +12,8 @@ function Slider({ original, modified, delay = 0 }) {
   const [sizes, setSizes] = useState({});
   const dragElement = useRef(null);
   const container = useRef(null);
-
-  useEffect(
-    setTimeout(() => setIsVisible(true), delay),
-    []
-  );
+  const tempTime = setTimeout(() => setIsVisible(true), delay);
+  useEffect(tempTime, []);
 
   const onDragStart = (e) => {
     e.preventDefault();

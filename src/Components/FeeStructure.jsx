@@ -32,7 +32,7 @@ const FeeStructure = () => {
 
   return (
     <>
-      <div className="fullRowWhite">
+      <div className="fullRowWhite" id="FeeSection">
         <div className="container">
           <div className="row">
             <div className="col">

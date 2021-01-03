@@ -12,7 +12,7 @@ const Video = () => {
         </video>
         {/* <h1>hello i am h1</h1>
         <p>i am p tag</p> */}
-        <Link to="here">
+        <Link to="GrowthSection">
           <div className="slider_down_btn"></div>
         </Link>
         {/* <div className="videoButton"></div> */}

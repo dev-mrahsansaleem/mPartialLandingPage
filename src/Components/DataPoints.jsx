@@ -4,8 +4,8 @@ import "./DataPoints.css";
 const DataPoints = () => {
   return (
     <>
-      <div className="fullRowWhite">
-        <div className=" howitworks ">
+      <div className="fullRowWhite" id="HowItWorkSection">
+        <div className=" howitworks">
           <div className="container">
             <div className="row">
               <div className="col">

@@ -58,7 +58,7 @@ const NavBar = () => {
           >
             <li className="nav-item">
               <LinkS
-                to="/GrowthSection"
+                to="GrowthSection"
                 className={navbarToggle ? "nav-links active" : "nav-links"}
                 onClick={closeMobileMenu}
               >
@@ -67,7 +67,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <LinkS
-                to="/HowItWorkSection"
+                to="HowItWorkSection"
                 className={navbarToggle ? "nav-links active" : "nav-links"}
                 onClick={closeMobileMenu}
               >
@@ -76,7 +76,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <LinkS
-                to="/FeeSection"
+                to="FeeSection"
                 className={navbarToggle ? "nav-links active" : "nav-links"}
                 onClick={closeMobileMenu}
               >
@@ -84,13 +84,13 @@ const NavBar = () => {
               </LinkS>
             </li>
             <li className="nav-item">
-              <Link
-                to="/DeliverableSection"
+              <LinkS
+                to="DeliverableSection"
                 className={navbarToggle ? "nav-links active" : "nav-links"}
                 onClick={closeMobileMenu}
               >
                 Example Deliverable
-              </Link>
+              </LinkS>
             </li>
             <li className="nav-item">
               <Link
@@ -103,7 +103,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <LinkS
-                to="/contactUsSection"
+                to="contactUsSection"
                 className={navbarToggle ? "nav-links active" : "nav-links"}
                 onClick={closeMobileMenu}
               >

@@ -10,7 +10,7 @@ const Contact = () => {
   // };
   return (
     <>
-      <div className="fullRowWhite">
+      <div className="fullRowWhite" id="contactUsSection">
         <div className="container">
           <div className="row">
             <div className="col">
@@ -21,37 +21,29 @@ const Contact = () => {
                 <div className="row">
                   <div class="col-md-6 col-sm-12">
                     <TextField
-                      id="outlined-full-width"
-                      label="Label"
-                      style={{ margin: 8 }}
-                      placeholder="Placeholder"
+                      id="name"
+                      label="Name"
+                      style={{ marginBottom: 40 }}
+                      placeholder="Enter Name"
+                      fullWidth
+                      margin="normal"
+                      variant="outlined"
+                    />
+
+                    <TextField
+                      id="email"
+                      label="Email"
+                      style={{ marginBottom: 40 }}
+                      placeholder="Enter Email"
                       fullWidth
                       margin="normal"
                       variant="outlined"
                     />
                     <TextField
-                      id="outlined-full-width"
-                      label="Label"
-                      style={{ margin: 8 }}
-                      placeholder="Placeholder"
-                      fullWidth
-                      margin="normal"
-                      variant="outlined"
-                    />
-                    <TextField
-                      id="outlined-full-width"
-                      label="Label"
-                      style={{ margin: 8 }}
-                      placeholder="Placeholder"
-                      fullWidth
-                      margin="normal"
-                      variant="outlined"
-                    />
-                    <TextField
-                      id="outlined-full-width"
-                      label="Label"
-                      style={{ margin: 8 }}
-                      placeholder="Placeholder"
+                      id="cell"
+                      label="Cell"
+                      style={{ marginBottom: 40 }}
+                      placeholder="Enter Cell"
                       fullWidth
                       margin="normal"
                       variant="outlined"
@@ -59,14 +51,14 @@ const Contact = () => {
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <TextField
-                      id="outlined-basic"
-                      label="Outlined"
-                      style={{ margin: 8 }}
-                      placeholder="Placeholder"
+                      id="msg"
+                      label="Write Your Message"
+                      style={{ marginBottom: 40 }}
+                      placeholder="Enter your Message"
                       fullWidth
                       margin="normal"
                       multiline
-                      rows={15}
+                      rows={13}
                       variant="outlined"
                     />
                   </div>
@@ -78,10 +70,12 @@ const Contact = () => {
                       display: "flex",
                       justifyContent: "center",
                       marginTop: 10,
-                      marginBottom: 10,
+                      marginBottom: 50,
                     }}
                   >
-                    <Button btnStyle="btn--round">Submit</Button>
+                    <Button btnStyle="btn--round" btnSize="btn--long">
+                      Submit
+                    </Button>
                   </div>
                 </div>
               </form>

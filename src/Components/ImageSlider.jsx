@@ -18,7 +18,7 @@ const ImageSlider = () => {
 
   return (
     <>
-      <div className="fullRowWhite" id="here">
+      <div className="fullRowWhite" id="GrowthSection">
         <div className="container">
           <div className="text-section">
             <div className="row">
